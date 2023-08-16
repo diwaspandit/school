@@ -101,12 +101,11 @@ document.addEventListener("DOMContentLoaded", function() {
 // -----------------------goto top script end-------------------------------
 
 // ---------------------loader---------------------------------
-document.addEventListener("DOMContentLoaded", function () {
-    // Hide the loading screen
-    document.querySelector(".loading-screen").style.display = "none";
-    // Show the main content
-    document
-      .querySelector(".main-content-container")
-      .classList.remove("is-hidden");
-  });
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        // Hide the loading screen after a timeout
+        document.querySelector(".loading-screen").style.display = "none";
+    }, 5000); // Change the timeout value (in milliseconds) as needed
+});
+  
 
