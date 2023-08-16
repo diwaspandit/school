@@ -99,3 +99,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // -----------------------goto top script end-------------------------------
+
+//------------------ to load loading icons--------------------------
+
+// Add JavaScript to handle the loading and content display
+window.addEventListener('load', function () {
+  document.querySelector('.loading-overlay').classList.add('hidden');
+  document.querySelector('.content').classList.remove('hidden');
+});
+
+
