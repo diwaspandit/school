@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         // Hide the loading screen after a timeout
         document.querySelector(".loading-screen").style.display = "none";
-    }, 5000); // Change the timeout value (in milliseconds) as needed
+    }, 1000); // Change the timeout value (in milliseconds) as needed
 });
   
 
